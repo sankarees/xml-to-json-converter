@@ -1,0 +1,41 @@
+<organization>
+    <name>Sankareeswaran Solutions</name>
+    <founded>2015</founded>
+    <location city="Sivakasi" state="Tamil Nadu" country="India"/>
+    <teams>
+        <team id="A1">
+            <name>Architecture</name>
+            <lead>Sankareeswaran</lead>
+            <members>
+                <member>
+                    <name>Ravi</name>
+                    <role>Cloud Architect</role>
+                </member>
+                <member>
+                    <name>Meena</name>
+                    <role>Security Engineer</role>
+                </member>
+            </members>
+            <projects>
+                <project>
+                    <title>Microservices Refactor</title>
+                    <status>Active</status>
+                    <milestones>
+                        <milestone>
+                            <name>Design Review</name>
+                            <due>2025-09-15</due>
+                        </milestone>
+                        <milestone>
+                            <name>Deployment</name>
+                            <due>2025-10-01</due>
+                        </milestone>
+                    </milestones>
+                </project>
+            </projects>
+        </team>
+        <team id="B2">
+            <name>DevOps</name>
+            <lead>Priya</lead>
+        </team>
+    </teams>
+</organization>
