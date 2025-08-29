@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "eeb0642f-836b-46cd-ac68-7ee4db077105",
+		"name": "XML to JSON Converter",
+		"description": "Spring Boot XML to JSON conversion endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34741234"
+	},
+	"item": [
+		{
+			"name": "Convert XML to JSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "sample.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/convert/xml-to-json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"convert",
+						"xml-to-json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

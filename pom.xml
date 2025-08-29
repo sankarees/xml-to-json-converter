@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.computerg</groupId>
 	<artifactId>smart-json</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>smartjson</name>
 	<description>convert any xml to json</description>
